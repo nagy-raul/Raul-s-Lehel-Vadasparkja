@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Wolf Vadaspark - Állataink</title>
 </head>
 <body>
@@ -18,19 +19,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Kezlap</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Kezdőlap</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/allataink.html">Állink</a>
+                <a class="nav-link" href="../html/allataink.html">Állataink</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../php/orokbefogadas.php">Örök</a>
+                <a class="nav-link" href="../php/orokbefogadas.php">Örökbefogadás</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../html/jegyarak.html">Jegyárak</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../php/infok.php" tabindex="-1" aria-disabled="true">Information</a>
+                <a class="nav-link" href="../php/infok.php" tabindex="-1" aria-disabled="true">Információk</a>
               </li>
             </ul>
           </div>
@@ -38,9 +39,43 @@
       </nav>
 
 <header>
-    
 </header>
 
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/makikolyok_1920.jpg" class="d-block w-100" alt="makikolyok_1920">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Maki kölyök született.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/zebra2.png" class="d-block w-100" alt="zebra">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Marty a zebra</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/farkasok-1920.png" class="d-block w-100" alt="wolf">
+        <div class="carousel-caption d-none d-md-block">
+          <p>Farkas kölyök született.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
     <div class="container">
         <div class="row">
@@ -64,21 +99,21 @@
       
       
       <div class="col">
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a href="" data-bs-toggle="modal" data-bs-target="#zebraModal">
           <div class="card">
             <img src="../img/zebra.png" class="card-img-top" alt="Zebra">
             <div class="card-body">
-              <h5 class="card-title">Zsiráf</h5>
+              <h5 class="card-title">Zebra</h5>
            
             </div>
           </div>
             </a>
         </div>
         <div class="col">
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a href="" data-bs-toggle="modal" data-bs-target="#zsirafModal">
           <div class="card">
              
-            <img src="../php/zsiraf.png" class="card-img-top" alt="Zsiráf">
+            <img src="../img/zsiraf.png" class="card-img-top" alt="Zsiráf">
             <div class="card-body">
               <h5 class="card-title">Zsiráf</h5>
              
@@ -87,19 +122,18 @@
         </a>
         </div>
         <div class="col">
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a href="" data-bs-toggle="modal" data-bs-target="#papagajModal">
           <div class="card">
              
             <img src="../img/ara.png" class="card-img-top" alt="Ara papagáj">
             <div class="card-body">
               <h5 class="card-title">Ara papagáj</h5>
-              pppppppppppppppppppppppppp
             </div>
           </div>
         </a>
         </div>
         <div class="col">
-            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a href="" data-bs-toggle="modal" data-bs-target="#pavaModal">
           <div class="card">
              
             <img src="../img/pava.png" class="card-img-top" alt="Páva">
@@ -112,7 +146,7 @@
         </div>
 
         <div class="col">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <a href="" data-bs-toggle="modal" data-bs-target="#flamingoModal">
         <div class="card">
           <img src="../img/flamingo.png" class="card-img-top" alt="Flamingó">
           <div class="card-body">
@@ -124,7 +158,7 @@
       </div>
 
         <div class="col">
-          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <a href="" data-bs-toggle="modal" data-bs-target="#pingvinModal">
         <div class="card">
            
           <img src="../img/pingvin.png" class="card-img-top" alt="Pingvin">
@@ -137,12 +171,12 @@
       </div>
 
       <div class="col">
-        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <a href="" data-bs-toggle="modal" data-bs-target="#makiModal">
       <div class="card">
          
-        <img src="../img/gyurusfarkumaki.png" class="card-img-top" alt="Gyűrűsfarkú miki">
+        <img src="../img/gyurusfarkumaki.png" class="card-img-top" alt="Gyűrűsfarkú maki">
         <div class="card-body">
-          <h5 class="card-title">Gyűrűsfarkú móka</h5>
+          <h5 class="card-title">Gyűrűsfarkú Maki</h5>
          
         </div>
       </div>
@@ -150,10 +184,10 @@
     </div>
 
     <div class="col">
-      <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <a href="" data-bs-toggle="modal" data-bs-target="#koalaModal">
     <div class="card">
        
-      <img src="../img/koala.png" class=card-img-top" alt="Koala">
+      <img src="../img/koala.png" class="card-img-top" alt="Koala">
       <div class="card-body">
         <h5 class="card-title">Koala</h5>
        
@@ -163,10 +197,10 @@
   </div>
 
   <div class="col">
-    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <a href="" data-bs-toggle="modal" data-bs-target="#mosomedveModal">
   <div class="card">
      
-    <img src="../mosomedve.png" class="card-img-top" alt="Mosópanda">
+    <img src="../img/mosomedve.png" class="card-img-top" alt="Mosómedve">
     <div class="card-body">
       <h5 class="card-title">Mosómedve</h5>
      
@@ -176,10 +210,10 @@
 </div>
 
 <div class="col">
-  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <a href="" data-bs-toggle="modal" data-bs-target="#pandaModal">
 <div class="card">
    
-  <img src="../css/panda.png" class="card-img-top" alt="Panda">
+  <img src="../img/panda.png" class="card-img-top" alt="Panda">
   <div class="card-body">
     <h5 class="card-title">Panda</h5>
    
@@ -189,7 +223,7 @@
 </div>
 
 <div class="col">
-  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <a href="" data-bs-toggle="modal" data-bs-target="#vorospandaModal">
 <div class="card">
    
   <img src="../img/vorospanda1.png" class="card-img-top" alt="Vörös panda">
@@ -202,7 +236,7 @@
 </div>
 
 <div class="col">
-  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <a href="" data-bs-toggle="modal" data-bs-target="#szurikataModal">
 <div class="card">
    
   <img src="../img/szurikata.png" class="card-img-top" alt="Szurikáta">
@@ -215,26 +249,23 @@
 </div>
 
 <div class="col">
-  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <a href="" data-bs-toggle="modal" data-bs-target="#farkasModal">
 <div class="card">
    
   <img src="../img/farkas.png" class="card-img-top" alt="Farkas">
-  <!-- <div class="card-body"> -->
-    <h5 class="card-title">Farkas</h5>
-   
-  </div>
+    <div class="card-body">
+      <h5 class="card-title">Farkas</h5>
+    </div>
 </div>
 </a>
 </div>
 
 <div class="col">
-  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-<div class="card">
-   
-  <img src="../img/oriasteknos.png" class="card-img-top" alt="Óriás teknős">
+  <a href="" data-bs-toggle="modal" data-bs-target="#teknosModal">
+  <div class="card">
+    <img src="../img/oriasteknos.png" class="card-img-top" alt="Óriás teknős">
   <div class="card-body">
     <h5 class="card-title">Óriás teknős</h5>
-   
   </div>
 </div>
 </a>
@@ -264,18 +295,405 @@
               </div>
             </div>
           </div>
-          
-          
-        
-
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
-         
         </div>
       </div>
     </div>
-  </div>   
+  </div>  
+  
+  <div class="modal fade" id="zebraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Zebra</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/zebra.png" alt="Zebra" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="zsirafModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Zsiraf</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/zsiraf.png" alt="Zsiraf" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="papagajModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ara papagáj</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/ara.png" alt="Ara" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="pavaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Páva</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/pava.png" alt="Pava" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="flamingoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Flamingo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/flamingo.png" alt="flamingo" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="pingvinModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Zsiraf</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/pingvin.png" alt="Pingvin" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="makiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Gyűrűsfarkú Maki</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/gyurusfarkumaki.png" alt="Zsiraf" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="koalaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Koala</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/koala.png" alt="Koala" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mosomedveModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mosómedve</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/mosomedve.png" alt="mosomedve" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="pandaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Panda</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/panda.png" alt="panda" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="vorospandaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Vörös Panda</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/vorospanda1.png" alt="Vörös Panda" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="szurikataModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Szurikáta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/szurikata.png" alt="szurikata" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="farkasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Farkas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/farkas.png" alt="Farkas" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="teknosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Óriás Teknős</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="../img/oriasteknos.png" alt="Oriasi Teknős" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <h2>Jellemzői:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero consequatur, fugiat dolore voluptatum provident at. Commodi ad reiciendis quibusdam magnam illum exercitationem provident magni mollitia expedita? Culpa, autem omnis.</p>
+                <p>Quis aliquam inventore deleniti optio iure necessitatibus molestiae, quaerat accusamus! Nulla nihil ex, doloribus aliquid in maxime iste tempore molestias tenetur minima eos amet quaerat officiis debitis tempora id voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <footer>
 <div class="row">
@@ -325,14 +743,14 @@
 
 <script>
 function feliratkozas(){
-let email=document.getElementById('email').value;
-if(email == ""){
-  alert("A mező kitöltése kötelező!");
-}
-else {
-  alert("Sikeresen feliratkozott! Köszönjük!");
-}
-
+  let email = document.getElementById('email').value;
+  if(email == ""){
+    alert("A mező kitöltése kötelező!");
+  }
+  else
+  {
+    alert("Sikeresen feliratkozott! Köszönjük!");
+  }
 }
 </script>
 
