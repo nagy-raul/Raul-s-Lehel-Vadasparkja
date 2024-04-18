@@ -6,7 +6,29 @@
         xmlns:local="clr-namespace:vadaspark"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFFBEED8">
+        <Label Content="Neve:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,95,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <Label Content="Fajtája:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,126,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <Label Content="Születési Dátum:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,157,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <Label Content="Neme:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,221,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <RadioButton Content="Hím" HorizontalAlignment="Left" Margin="185,227,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Foreground="#FF0243BB"/>
+        <RadioButton Content="Nőstény" HorizontalAlignment="Left" Margin="260,227,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.688,0.459" Foreground="#FF0243BB"/>
+        <TextBox x:Name="datum" HorizontalAlignment="Left" Height="26" Margin="185,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="faj" HorizontalAlignment="Left" Height="26" Margin="185,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="nev" HorizontalAlignment="Left" Height="26" Margin="185,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <ListBox HorizontalAlignment="Left" Height="216" VerticalAlignment="Top" Width="315" Margin="403,113,0,0"/>
+        <Label Content="Születési Helye:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,188,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <TextBox x:Name="hely" HorizontalAlignment="Left" Height="26" Margin="185,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <Label Content="Kedvenc Étele:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,255,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="185,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <Label Content="Állatok Adatai" HorizontalAlignment="Left" VerticalAlignment="Top" Height="59" Width="792" FontSize="36" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,10,0,0" Foreground="#FF0243BB"/>
+        <Label Content="Utodók száma:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,286,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="185,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <Label Content="Állatok" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="403,79,0,0" FontSize="18" FontStyle="Italic" Foreground="#FF0243BB" FontWeight="Bold"/>
+        <Button Content="Állat Feltöltése" HorizontalAlignment="Left" VerticalAlignment="Top" Width="287" Margin="36,340,0,0" Height="38" Click="Button_Click"/>
+        <Label Content="Állatok száma: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,84,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <Button Content="Letöltés" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Margin="403,340,0,0" Height="38" Click="Button_Click"/>
+        <Button Content="Állat törlése" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Margin="580,340,0,0" Height="38" Click="Button_Click"/>
+
     </Grid>
 </Window>
