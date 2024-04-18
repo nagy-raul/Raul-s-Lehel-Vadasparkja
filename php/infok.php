@@ -25,6 +25,9 @@
                 <a class="nav-link" href="../html/allataink.html">Állataink</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="../html/alapitok.html" tabindex="-1" aria-disabled="true">Rólunk</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="../php/orokbefogadas.php">Örökbefogadás</a>
               </li>
               <li class="nav-item">
@@ -32,9 +35,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../php/infok.php" tabindex="-1" aria-disabled="true">Információk</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/alapitok.html" tabindex="-1" aria-disabled="true">Rólunk</a>
               </li>
             </ul>
           </div>
