@@ -22,7 +22,7 @@ h5{
     font-variant: small-caps;
     color: #0243bb;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Fredericka the Great';
 }
 
 .card:hover{
@@ -40,7 +40,7 @@ h1:not(#home h1){
 
 .navbar{
     background-color: #0243bb;
-    font-family: 'Frederika the Great';
+    font-family: 'Fredericka the Great';
 }
 
 header{
