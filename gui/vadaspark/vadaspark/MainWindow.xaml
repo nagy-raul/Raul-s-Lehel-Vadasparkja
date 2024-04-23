@@ -26,7 +26,7 @@
         <TextBox HorizontalAlignment="Left" Height="26" Margin="185,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
         <Label Content="Állatok" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="403,79,0,0" FontSize="18" FontStyle="Italic" Foreground="#FF0243BB" FontWeight="Bold"/>
         <Button Content="Állat Feltöltése" HorizontalAlignment="Left" VerticalAlignment="Top" Width="287" Margin="36,340,0,0" Height="38" Click="Button_Click"/>
-        <Label Content="Állatok száma: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,84,0,0" FontSize="14" FontStyle="Italic" Foreground="#FF0243BB"/>
+        <Label Content="Állatok száma: 0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="580,82,0,0" FontSize="16" Foreground="#FF0243BB"/>
         <Button Content="Letöltés" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Margin="403,340,0,0" Height="38" Click="Button_Click"/>
         <Button Content="Állat törlése" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Margin="580,340,0,0" Height="38" Click="Button_Click"/>
 
