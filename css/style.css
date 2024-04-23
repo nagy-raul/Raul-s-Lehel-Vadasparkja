@@ -19,7 +19,7 @@ body:not(#home), .modal-content{
 }
 
 h5{
-    text-transform: lowercase;
+    font-variant: small-caps;
     color: #0243bb;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -146,4 +146,6 @@ a:link {
     border: 5px solid black;
     margin-top: 75px;
     padding: 10px;
+  }
+  .carousel-inner{
   }
