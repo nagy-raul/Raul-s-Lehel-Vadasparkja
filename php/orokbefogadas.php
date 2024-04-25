@@ -28,7 +28,7 @@
                 <a class="nav-link" href="../html/alapitok.html" tabindex="-1" aria-disabled="true">Rólunk</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../php/orokbefogadas.php">Örökbefogadás</a>
+                <a class="nav-link active" href="../php/orokbefogadas.php">Örökbefogadás</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../html/jegyarak.html">Jegyárak</a>
