@@ -31,11 +31,14 @@ h5{
 
 h1{
    text-align: center;
+   font-family: 'Fredericka the Great';
+
 }
 
 /*kivéve a home h1-e*/
 h1:not(#home h1){
     color: #0243bb;
+
 }
 
 .navbar{
@@ -69,6 +72,8 @@ hr{
 
 h2:not(footer h2){
     color: #0243bb;
+    font-family: 'Fredericka the Great';
+
 }
 
 .sorki{
@@ -136,14 +141,14 @@ a:link {
   }
   
   .team{
-    color: #000;
-    font-family: 'Josefin Slab', sans-serif;
+    color: #0243bb;
+    font-family: 'Fredericka the Great';
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid #0243bb;
     margin-top: 75px;
     padding: 10px;
   }
