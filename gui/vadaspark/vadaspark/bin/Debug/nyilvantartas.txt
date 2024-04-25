@@ -1,0 +1,5 @@
+1. a; a; a; a; Hím; a; a
+2. b; b; b; b; Hím; b; b
+3. c; c; c; c; Nőstény; c; c
+1. a; a; a; a; Hím; a; a
+3. c; c; c; c; Nőstény; c; c
